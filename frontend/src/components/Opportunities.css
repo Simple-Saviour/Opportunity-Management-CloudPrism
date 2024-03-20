@@ -1,0 +1,135 @@
+/* frontend/src/components/Opportunities.css */
+
+/* Reset default margin and font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style container for opportunities */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Center align headings */
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* Style list of opportunities */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px;
+}
+
+/* Style individual opportunity item */
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Make opportunity name bold */
+li strong {
+  font-weight: bold;
+}
+
+/* frontend/src/components/OpportunityForm.css */
+
+/* Style form container */
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Center align form headings */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* Center align form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style form labels */
+label {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Style form inputs */
+input[type='text'],
+input[type='number'],
+input[type='date'] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Style form submit button */
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+}
+
+/* Change button color on hover */
+button:hover {
+  background-color: #a100b3;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-button,
+.cancel-button {
+  padding: 12px 24px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  background-color: #0056b3;
+}
+
+.no_opportunity {
+  text-align: center;
+}
